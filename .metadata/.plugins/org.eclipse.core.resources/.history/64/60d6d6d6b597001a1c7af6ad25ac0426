@@ -1,0 +1,6 @@
+package com.blog.jpa.restaurant;
+
+@Entity @Table(name="restaurants")
+public class Restaurant {
+
+}
