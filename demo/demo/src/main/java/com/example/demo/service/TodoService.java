@@ -22,14 +22,16 @@ public class TodoService implements ITodoService {
 
     @Override
     public Todo patchTodo(UUID id, Todo patch) {
-        this.todos.stream().map(todo -> todo.getId() == id ? patch : todo).collect(Collectors.toList());
-
-        return patch;
+        Todo newtodo = new Todo(id, patch.getTitle(), patch.getIsComplete());
+        List<Todo> newtodos = this.todos.stream().map(todo -> todo.getId().equals(id)? newtodo : todo).collect(Collectors.toList());
+        this.todos = newtodos;
+        return newtodo;
     }
 
     @Override
     public int deleteTodo(UUID id) {
-        this.todos.stream().filter(todo -> todo.getId() == id);
+        List<Todo> newtodos = this.todos.stream().filter(todo -> !todo.getId().equals(id)).collect(Collectors.toList());
+        this.todos = newtodos;
         return 0;
     }
 

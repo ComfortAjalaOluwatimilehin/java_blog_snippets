@@ -26,8 +26,8 @@ public class TodoController {
         this.todoService.addTodo(todo.getTitle(), todo.getIsComplete());
     }
     @PatchMapping("/{id}")
-    public void patchTodo(@PathVariable("id") UUID id, @RequestBody Todo patch){
-        this.todoService.patchTodo(id, patch);
+    public Todo patchTodo(@PathVariable("id") UUID id, @RequestBody  Todo patch){
+        return this.todoService.patchTodo(id, patch);
     }
     @DeleteMapping("/{id}")
     public void deleteTodo(@PathVariable("id") UUID id){
