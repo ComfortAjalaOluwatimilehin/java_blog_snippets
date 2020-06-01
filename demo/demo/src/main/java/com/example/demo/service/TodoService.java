@@ -15,17 +15,24 @@ public class TodoService implements ITodoService {
     private List<Todo> todos = new ArrayList<>();
 
     @Override
-    public void addTodo(@JsonProperty("title") String title, @JsonProperty("isCompleted") boolean isCompleted) {
+    public Todo addTodo(@JsonProperty("title") String title, @JsonProperty("isCompleted") boolean isCompleted) {
+        if(Todo.validateTodo(title) == false){
+            return null;
+        }
         Todo todo = new Todo(UUID.randomUUID(), title, isCompleted);
         todos.add(todo);
+        return todo;
     }
 
     @Override
     public Todo patchTodo(UUID id, Todo patch) {
-        Todo newtodo = new Todo(id, patch.getTitle(), patch.getIsComplete());
-        List<Todo> newtodos = this.todos.stream().map(todo -> todo.getId().equals(id)? newtodo : todo).collect(Collectors.toList());
+        if(Todo.validateTodo(patch.getTitle()) == false){
+            return null;
+        }
+        Todo update = new Todo(id, patch.getTitle(), patch.getIsComplete());
+        List<Todo> newtodos = this.todos.stream().map(todo -> todo.getId().equals(id)? update : todo).collect(Collectors.toList());
         this.todos = newtodos;
-        return newtodo;
+        return patch;
     }
 
     @Override

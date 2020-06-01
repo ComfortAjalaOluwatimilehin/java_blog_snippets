@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1cU13ofae21WJJruTslP9jGmm8n" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,21 +49,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1590570262873">
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1590777858420">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590570262873" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1590570262873">
+    <state x="605" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1590777858420" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1591024230150">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590570262873" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1590570262873">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591024230150" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1591024230150">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590570262873" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1590570262873">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591024230150" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1591024230150">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590570262873" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591024230150" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1591024230150">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591024230150" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1591023773511">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591023773511" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1591023773511">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1591023773511" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1591023773510">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1591023773510" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1591023773511">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1591023773511" />
+    <state x="330" y="85" key="Maven.ArtifactSearchDialog" timestamp="1590778839036">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="85" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1590778839036" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1591023731142">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1591023731142" />
   </component>
 </project>

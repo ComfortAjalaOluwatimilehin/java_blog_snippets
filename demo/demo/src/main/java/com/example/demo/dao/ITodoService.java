@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface ITodoService {
-     public void addTodo(String title, boolean isCompleted);
+     public Todo addTodo(String title, boolean isCompleted);
      public Todo patchTodo(UUID id, Todo patch);
      public int deleteTodo(UUID id);
      public List<Todo> getTodos();
